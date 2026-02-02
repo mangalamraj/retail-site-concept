@@ -1,16 +1,27 @@
 import DisplayImage from "@/components/displayImage/displayImage";
+import Features from "@/components/features/features";
 import HeroSection from "@/components/hero/heroSection";
+import StakeHolders from "@/components/stakeholders/stakeholders";
 import TextReveal from "@/components/textReveal/textReveal";
 import TrustedBy from "@/components/trustedBy/trustedBy";
+import { AuroraBackground } from "@/components/ui/aurora-background";
+import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   return (
-    <div className=" m-auto w-full font-sans flex flex-col gap-18">
-      <HeroSection />
-      <TrustedBy />
+    <div className=" m-auto bg-zinc-50 w-full font-sans flex flex-col gap-18 dark:bg-zinc-900">
+      <AuroraBackground>
+        <HeroSection />
+        <TrustedBy />
+      </AuroraBackground>
       <DisplayImage />
 
       <TextReveal />
+      <Features />
+      <div className="container m-auto w-[60%] my-8">
+        <Separator />
+      </div>
+      <StakeHolders />
     </div>
   );
 }

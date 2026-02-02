@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
 import { Badge } from "../ui/badge";
+import { AuroraBackground } from "../ui/aurora-background";
 
 const HeroSection = () => {
   return (
@@ -20,7 +21,7 @@ const HeroSection = () => {
           height={900}
         ></Image>
       </div>*/}
-      <div className="relative   flex flex-col gap-4 items-center text-center  mt-80 ">
+      <div className="relative   flex flex-col gap-4 items-center text-center  mt-60 ">
         <Badge variant={"outline"} className="p-2 px-4">
           Retail Simplified
         </Badge>

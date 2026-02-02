@@ -29,8 +29,9 @@ const TextReveal = () => {
           scrollTrigger: {
             trigger: sectionRef.current,
             start: "top top",
-            end: "=50%",
+            end: "=120%",
             pin: true,
+            pinSpacing: true,
             scrub: true,
           },
         },
@@ -44,18 +45,18 @@ const TextReveal = () => {
     <section
       ref={sectionRef}
       style={{
-        minHeight: "200vh",
+        minHeight: "100vh",
       }}
       className="
-        relative
         dark:bg-inherit
         bg-black
+        overflow-y-auto
        "
     >
       <div
         style={{
           maxWidth: "100%",
-          height: "75vh",
+          height: "100vh",
           display: "flex",
           alignItems: "center",
           margin: "-0em auto",
@@ -63,7 +64,7 @@ const TextReveal = () => {
         }}
       >
         <p
-          className="text-4xl font-bold text-center w-[55%] m-auto"
+          className="text-4xl font-bold text-center w-[50%] m-auto"
           style={{
             lineHeight: 1.4,
             color: "#444",
