@@ -1,6 +1,9 @@
+import Footer from "@/components/common/footer/footer";
+import { CTA } from "@/components/cta/cta";
 import DisplayImage from "@/components/displayImage/displayImage";
 import Features from "@/components/features/features";
 import HeroSection from "@/components/hero/heroSection";
+import { Process } from "@/components/process/process";
 import StakeHolders from "@/components/stakeholders/stakeholders";
 import TextReveal from "@/components/textReveal/textReveal";
 import TrustedBy from "@/components/trustedBy/trustedBy";
@@ -22,6 +25,11 @@ export default function Home() {
         <Separator />
       </div>
       <StakeHolders />
+      <div className="container m-auto w-[60%] my-8">
+        <Separator />
+      </div>
+      <CTA />
+      <Footer />
     </div>
   );
 }

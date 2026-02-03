@@ -1,5 +1,5 @@
 import Image from "next/image";
-
+import { Marquee } from "../ui/marquee";
 const logos = [
   { name: "JCPenney", src: "/JCPenney (1).webp" },
   { name: "KeHE", src: "/Kehe RetailReady.webp" },
@@ -11,27 +11,23 @@ const logos = [
 
 const TrustedBy = () => {
   return (
-    <section className="container m-auto text-center">
-      <h2 className=" text-sm font-medium tracking-widest text-muted-foreground uppercase">
+    <section className="container m-auto text-center overflow-hidden">
+      <h2 className="text-sm font-medium tracking-widest text-muted-foreground uppercase">
         Trusted by
       </h2>
-
-      <div className="flex gap-12 mt-4 items-center justify-center">
+      <div className="[--duration:20s] w-200 m-auto flex justify-center ">
         {logos.map((logo) => (
           <div
             key={logo.name}
-            className="relative group rounded-2xl overflow-hidde"
+            className="relative mx-4 mt-4 w-20 flex items-center"
           >
-            <div className="relative flex items-center justify-center w-20">
-              <Image
-                src={logo.src}
-                alt={logo.name}
-                width={100}
-                height={80}
-                className="h-12 w-auto object-contain grayscale color-white dark:fill-white"
-                priority={false}
-              />
-            </div>
+            <Image
+              src={logo.src}
+              alt={logo.name}
+              width={80}
+              height={60}
+              className="h-12 w-auto object-contain grayscale color-white dark:fill-white"
+            />
           </div>
         ))}
       </div>

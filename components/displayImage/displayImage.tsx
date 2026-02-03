@@ -5,7 +5,7 @@ const DisplayImage = () => {
   return (
     <div className="container m-auto ">
       <WobbleCard
-        containerClassName="w-[1000px] bg-blue-50 dark:bg-cyan-950 h-[600px]"
+        containerClassName="w-[1000px] bg-blue-100 dark:bg-cyan-900 h-[600px]"
         className="relative  m-2 flex flex-col items-center p-8 rounded-2xl  overflow-hidden"
       >
         <Image

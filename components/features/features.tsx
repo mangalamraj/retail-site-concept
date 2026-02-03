@@ -16,12 +16,12 @@ const Features = () => {
       </div>
       <div className="flex gap-4 w-[80%] justify-center m-auto">
         <div
-          className={` bg-gray-100 dark:bg-inherit dark:border-2  w-[400px] rounded-xl flex`}
+          className={` bg-gray-100 dark:bg-zinc-800 dark:border-2 border-zinc-800  w-[400px] rounded-xl flex`}
         >
           <div className="flex flex-col gap-12 m-4  text-left">
             <div className="group flex m-2 gap-2  text-white p-1 rounded-full items-center duration-300 group-hover:px-4 font-semibold cursor-pointer">
-              <div className=" rounded-full p-1  bg-black hover:rotate-180 duration-300">
-                <div className="p-2 rounded-full border-2 border-gray-600">
+              <div className=" rounded-full  bg-black hover:rotate-180 duration-300">
+                <div className="p-3 rounded-full border-2 border-gray-600">
                   <Zap size={18} />
                 </div>
               </div>{" "}
@@ -38,12 +38,12 @@ const Features = () => {
           </div>
         </div>
         <div
-          className={` bg-gray-100 dark:bg-inherit dark:border-2 w-[400px] rounded-xl flex`}
+          className={` bg-gray-100 dark:bg-zinc-800 dark:border-2 border-zinc-800  w-[400px] rounded-xl flex`}
         >
           <div className="flex flex-col gap-12 m-4  text-left">
             <div className="group flex m-2 gap-2  text-white p-1 rounded-full items-center duration-300 group-hover:px-4 font-semibold cursor-pointer">
-              <div className=" rounded-full p-1  bg-black hover:rotate-360 duration-300">
-                <div className="p-2 rounded-full border-2 border-gray-600">
+              <div className=" rounded-full  bg-black hover:rotate-360 duration-300">
+                <div className="p-3 rounded-full border-2 border-gray-700">
                   <ClockCheck size={18} />
                 </div>
               </div>{" "}
@@ -60,12 +60,12 @@ const Features = () => {
           </div>
         </div>
         <div
-          className={` bg-gray-100 dark:bg-inherit dark:border-2  w-[400px] rounded-xl flex`}
+          className={` bg-gray-100 dark:bg-zinc-800 dark:border-2 border-zinc-800  w-[400px] rounded-xl flex`}
         >
           <div className="flex flex-col gap-12 m-4  text-left">
             <div className="group flex m-2 gap-2  text-white p-1 rounded-full items-center duration-300 group-hover:px-4 font-semibold cursor-pointer">
-              <div className=" rounded-full p-1  bg-black hover:rotate-180 duration-300">
-                <div className="p-2 rounded-full border-2 border-gray-600">
+              <div className=" rounded-full  bg-black hover:rotate-180 duration-300">
+                <div className="p-3 rounded-full border-2 border-gray-700">
                   <Smartphone size={18} />
                 </div>
               </div>{" "}
@@ -80,12 +80,12 @@ const Features = () => {
           </div>
         </div>
         <div
-          className={` bg-gray-100 dark:bg-inherit dark:border-2  w-[400px] rounded-xl flex`}
+          className={` bg-gray-100 dark:bg-zinc-800 dark:border-2 border-zinc-800  w-[400px] rounded-xl flex`}
         >
           <div className="flex flex-col gap-12 m-4  text-left">
             <div className="group flex m-2 gap-2  text-white p-1 rounded-full items-center duration-300 group-hover:px-4 font-semibold cursor-pointer">
-              <div className=" rounded-full p-1  bg-black hover:rotate-180 duration-300">
-                <div className="p-2 rounded-full border-2 border-gray-600">
+              <div className=" rounded-full  bg-black hover:rotate-180 duration-300">
+                <div className="p-3 rounded-full border-2 border-gray-700">
                   <Cog size={20} />
                 </div>
               </div>{" "}

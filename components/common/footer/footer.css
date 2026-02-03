@@ -1,0 +1,229 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap");
+
+.footerparent .navbarbakchodi {
+    width: 83%;
+    margin: 0 auto;
+    font-size: 12px;
+    color: gray;
+}
+
+.footerparent {
+    max-width: 1496px;
+    margin: 0 auto;
+    padding-top: 2em;
+}
+.logo-row {
+    padding-right: 10em;
+    margin-top: 40px;
+}
+.link-row {
+    margin-top: 40px;
+    width: 100%;
+}
+
+.footer-sec {
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+    background-color: rgb(22, 21, 23);
+    position: relative;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+}
+.footer-header {
+    padding: 2% 8% 0;
+}
+.footer-header hr {
+    width: 100%;
+    margin: 1px auto;
+    opacity: 40%;
+    border: 0.01px solid white;
+    margin-top: 1%;
+}
+
+.footer-header img {
+    width: 140px;
+    height: 50px;
+}
+
+.logo-des h3 {
+    font-size: 1rem;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+.logo-des p {
+    font-size: 0.85rem;
+    letter-spacing: 0.05rem;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    font-weight: 300;
+}
+
+.manik {
+    width: 120px;
+}
+.main {
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 15px;
+    padding-bottom: 50px;
+
+    gap: 50px;
+}
+
+.footer-header {
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+.footer-header_sub h3 {
+    font-size: 1rem;
+    padding-bottom: 15px;
+    font-weight: 400;
+    letter-spacing: 0.02rem;
+}
+
+.office-des {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-des a {
+    text-decoration: none;
+    color: #98a8f8;
+}
+.logo-des a:hover {
+    color: #fff;
+}
+.num {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.link-des {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.link-des a {
+    color: #abacb7;
+    text-decoration: none;
+    font-size: 0.9rem;
+    letter-spacing: 0.05rem;
+    font-weight: 300;
+}
+
+.link-des a:hover {
+    cursor: pointer;
+}
+
+.copyright_main {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+.copyright_main hr {
+    width: 100%;
+    margin: 3px auto;
+    opacity: 30%;
+    border: 0.01px solid white;
+}
+
+.copyright_main p {
+    padding: 20px;
+}
+
+.disclaimer {
+    padding: 0% 8% 3%;
+}
+.head_disc h3 {
+    font-size: 1rem;
+    padding-bottom: 10px;
+    font-weight: 400;
+}
+
+.para_disc p {
+    color: #abacb7;
+    font-size: 0.85rem;
+    letter-spacing: 0.05rem;
+    line-height: 1.3rem;
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    font-weight: 300;
+}
+
+.col-12 {
+    padding-top: 5px;
+    padding-bottom: 30px;
+    color: grey;
+}
+.col-12 .copyright {
+    font-weight: 300;
+    float: none;
+    font-size: 0.7rem;
+    letter-spacing: 0.02rem;
+}
+
+.col_main {
+    display: flex;
+    width: 100%;
+}
+.col_sub1 {
+    display: flex;
+    width: 34%;
+}
+.col_sub3 {
+    display: flex;
+    width: 22%;
+}
+
+.col_sub2 {
+    display: flex;
+    width: 44%;
+}
+
+.s_tags {
+    padding-top: 20px;
+}
+.s_tags span {
+    font-size: 1.5em;
+    padding-right: 20px;
+    cursor: pointer;
+}
+
+@media (max-width: 1024px) {
+    .col_main {
+        display: flex;
+        flex-direction: column;
+    }
+    .col_sub2 {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .col_sub1 {
+        display: flex;
+        width: 100%;
+    }
+    .col_sub3 {
+        display: flex;
+        width: 100%;
+    }
+    .logo-row {
+        padding-right: 0;
+    }
+    .disclaimer {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .copyright_main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .footer-header {
+        padding: 8% 5% 0;
+    }
+    .main {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
