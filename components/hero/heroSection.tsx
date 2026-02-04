@@ -3,6 +3,7 @@ import Image from "next/image";
 import { Button } from "../ui/button";
 import { Badge } from "../ui/badge";
 import { AuroraBackground } from "../ui/aurora-background";
+import TrustedBy from "../trustedBy/trustedBy";
 
 const HeroSection = () => {
   return (
@@ -27,7 +28,7 @@ const HeroSection = () => {
         </Badge>
 
         <div className="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight bg-linear-to-b text-black from-60% dark:from-white dark:to-gray-800 bg-clip-text dark:text-transparent">
-          RETAIL READY
+          Rolls Royce
         </div>
         <div className="text-2xl text-gray-400">
           <p>
@@ -42,6 +43,7 @@ const HeroSection = () => {
           Meet With Us
         </Button>
       </div>
+      <TrustedBy />
     </div>
   );
 };

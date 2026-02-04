@@ -237,7 +237,7 @@ export const NavbarLogo = () => {
     >
       <img src="/pp.webp" alt="logo" width={50} height={30} />
       <span className="font-medium text-black dark:text-white">
-        RetailReady
+        Rolls Royce
       </span>
     </a>
   );

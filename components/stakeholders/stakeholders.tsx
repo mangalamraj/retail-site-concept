@@ -7,7 +7,7 @@ import { ArrowRight, ChevronRight } from "lucide-react";
 const StakeHolders = () => {
   const [hover, setHover] = useState(true);
   return (
-    <div className="container m-auto text-center font-semibold pb-10">
+    <div className="container m-auto text-center font-semibold pb-10 mb-20">
       <div className="text-4xl">Value for every stakeholder</div>
       <div className="text-base font-semibold text-gray-400 mt-2">
         We value all of our stakeholders

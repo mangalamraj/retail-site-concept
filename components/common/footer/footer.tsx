@@ -1,5 +1,7 @@
 import { Facebook, Instagram, Twitter } from "lucide-react";
 import "./footer.css";
+import { Separator } from "@/components/ui/separator";
+import { TextHoverEffect } from "@/components/ui/text-hover-effect";
 
 const Footer = () => {
   return (
@@ -7,9 +9,9 @@ const Footer = () => {
       <div className="footerparent">
         <div className="footer-header">
           <img src="/ppw.png" className="manik" alt="" />
-          <hr />
+          <hr className="backdrop-opaci" />
         </div>
-        <div className="main">
+        <div className="main ">
           <div className="col_main">
             <div className="col_sub1">
               <div className="logo-row">
@@ -25,13 +27,13 @@ const Footer = () => {
                 </div>
                 <div className="s_tags flex">
                   <span>
-                    <Instagram />
+                    <Instagram size={20} />
                   </span>
                   <span>
-                    <Twitter />
+                    <Twitter size={20} />
                   </span>
                   <span>
-                    <Facebook />
+                    <Facebook size={20} />
                   </span>
                 </div>
               </div>
@@ -47,16 +49,16 @@ const Footer = () => {
                     Home
                   </a>
                   <a href="#" className="footer-links">
-                    About Us
+                    Case Studies
                   </a>
                   <a href="#" className="footer-links">
-                    Our Mission
+                    About{" "}
                   </a>
                   <a href="#" className="footer-links">
-                    Galary
+                    Privacy{" "}
                   </a>
                   <a href="#" className="footer-links">
-                    Contact Us
+                    Terms{" "}
                   </a>
                 </div>
               </div>
@@ -82,36 +84,6 @@ const Footer = () => {
                 </div>
               </div>
             </div>
-            <div className="col_sub3">
-              <div className="link-row">
-                <div className="footer-header_sub">
-                  <h3>Ipsum Lorem</h3>
-                </div>
-
-                <div className="link-des">
-                  <a href="#" className="footer-links">
-                    Lorem Ipsum
-                  </a>
-                  <a href="#" className="footer-links">
-                    Lorem Ipsum
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="disclaimer">
-          <div className="head_disc">
-            <h3>Disclaimer</h3>
-          </div>
-          <div className="para_disc">
-            <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores et quas molestias excepturi sint occaecati cupiditate non
-              provident, similique sunt in culpa qui officia deserunt mollitia
-              animi, id est laborum et corrupti quos dolores
-            </p>
           </div>
         </div>
 

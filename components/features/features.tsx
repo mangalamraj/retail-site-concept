@@ -16,7 +16,7 @@ const Features = () => {
       </div>
       <div className="flex gap-4 w-[80%] justify-center m-auto">
         <div
-          className={` bg-gray-100 dark:bg-zinc-800 dark:border-2 border-zinc-800  w-[400px] rounded-xl flex`}
+          className={` bg-gray-100 dark:bg-black  border-zinc-800 dark:border-2  w-[400px] rounded-xl flex`}
         >
           <div className="flex flex-col gap-12 m-4  text-left">
             <div className="group flex m-2 gap-2  text-white p-1 rounded-full items-center duration-300 group-hover:px-4 font-semibold cursor-pointer">
@@ -38,7 +38,7 @@ const Features = () => {
           </div>
         </div>
         <div
-          className={` bg-gray-100 dark:bg-zinc-800 dark:border-2 border-zinc-800  w-[400px] rounded-xl flex`}
+          className={` bg-gray-100 dark:bg-black border-zinc-800 dark:border-2  w-[400px] rounded-xl flex`}
         >
           <div className="flex flex-col gap-12 m-4  text-left">
             <div className="group flex m-2 gap-2  text-white p-1 rounded-full items-center duration-300 group-hover:px-4 font-semibold cursor-pointer">
@@ -60,7 +60,7 @@ const Features = () => {
           </div>
         </div>
         <div
-          className={` bg-gray-100 dark:bg-zinc-800 dark:border-2 border-zinc-800  w-[400px] rounded-xl flex`}
+          className={` bg-gray-100 dark:bg-black border-zinc-800 dark:border-2  w-[400px] rounded-xl flex`}
         >
           <div className="flex flex-col gap-12 m-4  text-left">
             <div className="group flex m-2 gap-2  text-white p-1 rounded-full items-center duration-300 group-hover:px-4 font-semibold cursor-pointer">
@@ -80,7 +80,7 @@ const Features = () => {
           </div>
         </div>
         <div
-          className={` bg-gray-100 dark:bg-zinc-800 dark:border-2 border-zinc-800  w-[400px] rounded-xl flex`}
+          className={` bg-gray-100 dark:bg-black dark:border-2 border-zinc-800  w-[400px] rounded-xl flex`}
         >
           <div className="flex flex-col gap-12 m-4  text-left">
             <div className="group flex m-2 gap-2  text-white p-1 rounded-full items-center duration-300 group-hover:px-4 font-semibold cursor-pointer">

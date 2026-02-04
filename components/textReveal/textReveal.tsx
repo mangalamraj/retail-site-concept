@@ -64,7 +64,7 @@ const TextReveal = () => {
         }}
       >
         <p
-          className="text-4xl font-bold text-center w-[50%] m-auto"
+          className="text-4xl font-bold text-center w-[55%] m-auto"
           style={{
             lineHeight: 1.4,
             color: "#444",

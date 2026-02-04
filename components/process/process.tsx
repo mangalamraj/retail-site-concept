@@ -1,55 +1,83 @@
 "use client";
-import React from "react";
-import { StickyScroll } from "../ui/sticky-scroll-reveal";
 
-const content = [
+import Image from "next/image";
+import { useState } from "react";
+
+const steps = [
   {
-    title: "Collaborative Editing",
-    description:
-      "Work together in real time with your team, clients, and stakeholders. Collaborate on documents, share ideas, and make decisions quickly. With our platform, you can streamline your workflow and increase productivity.",
-    content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Collaborative Editing
-      </div>
-    ),
+    title: "Smart Order Processing",
+    desc: "Start your fulfillment journey with our intuitive mobile interface. Directed packout workflows ensure accuracy from the first step.",
+    image: "/p1.webp",
   },
   {
-    title: "Real time changes",
-    description:
-      "See changes as they happen. With our platform, you can track every modification in real time. No more confusion about the latest version of your project. Say goodbye to the chaos of version control and embrace the simplicity of real-time updates.",
-    content: (
-      <div className="flex h-full w-full items-center justify-center text-white">
-        <img
-          src="/linear.webp"
-          width={300}
-          height={300}
-          className="h-full w-full object-cover"
-          alt="linear board demo"
-        />
-      </div>
-    ),
+    title: "Proactive Compliance Checks",
+    desc: "Prevent costly mistakes before they happen. Our system automatically validates retailer requirements, ensuring every SKU meets compliance standards before shipping.",
+    image: "/p2.webp",
   },
   {
-    title: "Version control",
-    description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-    content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] text-white">
-        Version control
-      </div>
-    ),
+    title: "Guided Packaging Process",
+    desc: "Follow clear, step-by-step instructions for proper labeling and packaging. Our system ensures every box is correctly labeled and ready for shipment.",
+    image: "/p3.webp",
   },
   {
-    title: "Running out of content",
-    description:
-      "Experience real-time updates and never stress about version control again. Our platform ensures that you're always working on the most recent version of your project, eliminating the need for constant manual updates. Stay in the loop, keep your team aligned, and maintain the flow of your work without any interruptions.",
-    content: (
-      <div className="flex h-full w-full items-center justify-center bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] text-white">
-        Running out of content
-      </div>
-    ),
+    title: "Verified Success",
+    desc: "Celebrate each perfectly packed order! Our system confirms successful completion, giving you confidence that every shipment meets the highest standards.",
+    image: "/p4.webp",
   },
 ];
-export function Process() {
-  return <div className="w-full py-4"></div>;
-}
+
+const Process = () => {
+  const [activeIndex, setActiveIndex] = useState(0);
+
+  return (
+    <div className="container m-auto md:mt-10 md:mb-10">
+      <div className="w-[80%] flex flex-col md:flex-row gap-10 m-auto justify-between">
+        <div className="flex h-[600px] md:w-[55%] flex-col justify-between">
+          <div className="text-4xl font-semibold">Order Processing</div>
+
+          <div className="flex flex-col gap-3">
+            {steps.map((step, index) => (
+              <div
+                key={index}
+                onClick={() => setActiveIndex(index)}
+                className={`px-4 py-4 rounded-2xl cursor-pointer transition-all duration-300
+                ${
+                  activeIndex === index
+                    ? "bg-gray-100 dark:bg-zinc-800 dark:text-black "
+                    : " hover:scale-[1.01]"
+                }`}
+              >
+                <div className="text-base dark:text-white font-semibold">
+                  {step.title}
+                </div>
+                <div
+                  className={`text-sm font-semibold ${
+                    activeIndex === index
+                      ? "text-sm dark:text-gray-400 text-gray-500 font-semibold"
+                      : "text-gray-400 dark:text-gray-500"
+                  }`}
+                >
+                  {step.desc}
+                </div>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div className="h-full flex items-center">
+          <div key={activeIndex} className="animate-[fadeUp_0.5s_ease-out]">
+            <Image
+              src={steps[activeIndex].image}
+              alt="process"
+              width={420}
+              height={420}
+              className="rounded-xl"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Process;

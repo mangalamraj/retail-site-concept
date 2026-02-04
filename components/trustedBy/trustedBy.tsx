@@ -11,7 +11,7 @@ const logos = [
 
 const TrustedBy = () => {
   return (
-    <section className="container m-auto text-center overflow-hidden">
+    <section className="container m-auto text-center overflow-hidden mt-10">
       <h2 className="text-sm font-medium tracking-widest text-muted-foreground uppercase">
         Trusted by
       </h2>
