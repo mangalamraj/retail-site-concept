@@ -29,7 +29,7 @@ const TextReveal = () => {
           scrollTrigger: {
             trigger: sectionRef.current,
             start: "top top",
-            end: "=120%",
+            end: "=100%",
             pin: true,
             pinSpacing: true,
             scrub: true,
@@ -64,7 +64,7 @@ const TextReveal = () => {
         }}
       >
         <p
-          className="text-4xl font-bold text-center w-[55%] m-auto"
+          className="text-5xl font-medium text-left 2xl:w-[60%] lg:w-[70%] m-auto"
           style={{
             lineHeight: 1.4,
             color: "#444",
@@ -73,8 +73,7 @@ const TextReveal = () => {
           This concept presents a streamlined digital experience focused on
           clarity, automation, and operational efficiency. The interface
           emphasizes guided workflows, clear data visibility, and scalable
-          components designed to reduce friction, support compliance, and
-          improve day-to-day execution.
+          components designed to reduce friction
         </p>
       </div>
     </section>

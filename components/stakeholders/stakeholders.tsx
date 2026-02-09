@@ -7,19 +7,19 @@ import { ArrowRight, ChevronRight } from "lucide-react";
 const StakeHolders = () => {
   const [hover, setHover] = useState(true);
   return (
-    <div className="container m-auto text-center font-semibold pb-10 mb-20">
-      <div className="text-4xl">Value for every stakeholder</div>
-      <div className="text-base font-semibold text-gray-400 mt-2">
+    <div className="container m-auto text-center  ">
+      <div className="text-4xl font-medium">Value for every stakeholder</div>
+      <div className="text-lg font-medium text-gray-400 mt-2">
         We value all of our stakeholders
       </div>
       <div className="flex gap-4 w-[80%] m-auto mt-10 text-white ">
         <div
-          className={`${hover ? "w-2/3" : "w-1/4"} relative duration-400  bg-black rounded-xl cursor-pointer overflow-hidden text-left flex p-5 hover:p-8 mt`}
+          className={`${hover ? "w-2/3" : "w-1/4"} relative duration-400 bg-black dark:bg-zinc-950 rounded-xl border cursor-pointer overflow-hidden text-left flex p-5 hover:p-8 mt`}
         >
           <div className="flex flex-col justify-end align-text-bottom h-full w-full">
-            <div className="text-2xl font-bold">For 3PLs.</div>
+            <div className="text-2xl font-medium">For 3PLs.</div>
             <div
-              className={`text-lg font-semibold  ${hover ? "w-full h-fit text-whit" : "w-0 h-0"}   overflow-hidden duration:300`}
+              className={`text-base   ${hover ? "w-full h-fit text-whit" : "w-0 h-0"}   overflow-hidden duration:300`}
             >
               Streamline Your Operations
             </div>
@@ -61,7 +61,7 @@ const StakeHolders = () => {
           </div>
         </div>
         <div
-          className="relative group w-1/4 hover:w-2/3 duration-400  bg-black rounded-xl cursor-pointer overflow-hidden text-left flex p-5 hover:p-8 mt"
+          className="relative group w-1/4 hover:w-2/3 duration-400 bg-black  dark:bg-zinc-950 border rounded-xl cursor-pointer overflow-hidden text-left flex p-5 hover:p-8 mt"
           onMouseOver={() => {
             setHover(false);
           }}
@@ -70,8 +70,8 @@ const StakeHolders = () => {
           }}
         >
           <div className="flex flex-col justify-end align-text-bottom h-full w-full">
-            <div className="text-2xl font-bold">For Brands.</div>
-            <div className="text-lg font-semibold w-0 h-0 group-hover:w-full group-hover:h-fit group-hover:text-white overflow-hidden duration:300">
+            <div className="text-2xl font-medium">For Brands.</div>
+            <div className="text-base w-0 h-0 group-hover:w-full group-hover:h-fit group-hover:text-white overflow-hidden duration:300">
               Maximize Your Performance
             </div>
             <div className="flex gap-2 text-xs font-bold  w-0   h-0 group-hover:w-full group-hover:h-fit group-hover:text-white group-hover:mt-4 overflow-hidden duration:300">
@@ -108,7 +108,7 @@ const StakeHolders = () => {
           </div>
         </div>
         <div
-          className="relative group w-1/4 hover:w-2/3 duration-400 h-[400px] bg-black rounded-xl cursor-pointer overflow-hidden text-left flex p-5 hover:p-8 mt"
+          className="relative group w-1/4 hover:w-2/3 duration-400 h-[400px] bg-black dark:bg-zinc-950 border rounded-xl cursor-pointer overflow-hidden text-left flex p-5 hover:p-8 mt"
           onMouseOver={() => {
             setHover(false);
           }}
@@ -117,8 +117,8 @@ const StakeHolders = () => {
           }}
         >
           <div className="flex flex-col justify-end align-text-bottom h-full w-full">
-            <div className="text-2xl font-bold">For Retailers.</div>
-            <div className="text-lg font-semibold w-0 h-0 group-hover:w-full group-hover:h-fit group-hover:text-white overflow-hidden duration:300">
+            <div className="text-2xl font-medium">For Retailers.</div>
+            <div className="text-base  w-0 h-0 group-hover:w-full group-hover:h-fit group-hover:text-white overflow-hidden duration:300">
               Optimize Your Receiving Process
             </div>
             <div className="flex gap-2 text-xs font-bold  w-0   h-0 group-hover:w-full group-hover:h-fit group-hover:text-white group-hover:mt-4 overflow-hidden duration:300">

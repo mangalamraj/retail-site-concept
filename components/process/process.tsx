@@ -30,10 +30,10 @@ const Process = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="container m-auto md:mt-10 md:mb-10">
+    <div className="max-w-380 m-auto md:mt-10 md:mb-10 z-10">
       <div className="w-[80%] flex flex-col md:flex-row gap-10 m-auto justify-between">
         <div className="flex h-[600px] md:w-[55%] flex-col justify-between">
-          <div className="text-4xl font-semibold">Order Processing</div>
+          <div className="text-4xl ">Order Processing</div>
 
           <div className="flex flex-col gap-3">
             {steps.map((step, index) => (
@@ -43,17 +43,15 @@ const Process = () => {
                 className={`px-4 py-4 rounded-2xl cursor-pointer transition-all duration-300
                 ${
                   activeIndex === index
-                    ? "bg-gray-100 dark:bg-zinc-800 dark:text-black "
+                    ? "bg-gray-200/40 dark:bg-zinc-950 dark:border dark:text-black "
                     : " hover:scale-[1.01]"
                 }`}
               >
-                <div className="text-base dark:text-white font-semibold">
-                  {step.title}
-                </div>
+                <div className="text-base dark:text-white ">{step.title}</div>
                 <div
                   className={`text-sm font-semibold ${
                     activeIndex === index
-                      ? "text-sm dark:text-gray-400 text-gray-500 font-semibold"
+                      ? "text-sm dark:text-gray-400 text-gray-500 "
                       : "text-gray-400 dark:text-gray-500"
                   }`}
                 >

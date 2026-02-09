@@ -38,7 +38,9 @@ export function NavbarComponent() {
         <NavItems items={navItems} />
 
         <div className="flex items-center gap-4 z-50">
-          <NavbarButton variant="primary">Login</NavbarButton>
+          <NavbarButton variant="" className="rounded-2xl bg-black text-white">
+            Login
+          </NavbarButton>
           <ModeToggle />
         </div>
       </NavBody>

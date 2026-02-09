@@ -7,7 +7,7 @@ import {
 
 export function FaqComponent() {
   return (
-    <div className="container  xl:w-[70%] md:my-10 md:m-auto text-center flex flex-col md:flex-row md:justify-between justify-center gap-2 md:gap-10">
+    <div className="container  xl:w-[60%] md:m-auto text-center flex flex-col md:flex-row md:justify-between justify-center gap-2 md:gap-10">
       <div className="md:text-left flex flex-col  m-auto">
         <div className="text-2xl font-semibold md:text-4xl md:mb-2">FAQs</div>
         <div className="md:text-base text-[#a1a1aa] md:mb-8 font-semibold">
@@ -46,12 +46,11 @@ export function FaqComponent() {
           </AccordionItem>
           <AccordionItem value="item-3">
             <AccordionTrigger className="text-left">
-              Can the chatbot be customized to match our brand's voice and
-              style?
+              Can the chatbot be customized to match our brands voice and style?
             </AccordionTrigger>
             <AccordionContent>
               Absolutely! Our chatbots can be fully customized to reflect your
-              brand's tone, style, and visual identity, ensuring a consistent
+              brands tone, style, and visual identity, ensuring a consistent
               user experience across all touchpoints.
             </AccordionContent>
           </AccordionItem>

@@ -3,10 +3,11 @@ import React from "react";
 import { BackgroundBeams } from "../ui/background-beams";
 import { Button } from "../ui/button";
 import Image from "next/image";
+import EmailSection from "../email/emailSection";
 
 export function CTA() {
   return (
-    <div className="flex md:mt-20">
+    <div className="flex flex-col gap-10 mb-10">
       <div className="w-[70%] m-auto flex gap-4 items-center align-middle">
         <div className="relative md:h-[470px] md:w-2/3 bg-[url(/storage.jpg)] bg-cover bg-center rounded-2xl flex flex-col justify-center text-5xl font-bold text-center leading-14">
           <div className="absolute w-full h-full bg-gray-800 opacity-25 z-1 rounded-2xl"></div>
@@ -25,7 +26,7 @@ export function CTA() {
           </div>
           <p className="z-2 text-white"> staff into an expert</p>
         </div>
-        <div className="container m-auto h-[30rem] w-1/3 rounded-2xl bg-neutral-950 relative flex flex-col items-center justify-center antialiased m">
+        <div className="container m-auto h-[30rem] w-1/3 rounded-2xl bg-zinc-950 border relative flex flex-col items-center justify-center antialiased m">
           <div className="max-w-2xl mx-auto p-4 mt-10">
             <h1 className="relative z-10 text-lg md:text-5xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
               Join the future{" "}
@@ -46,6 +47,7 @@ export function CTA() {
           <BackgroundBeams />
         </div>
       </div>
+      <EmailSection />
     </div>
   );
 }
