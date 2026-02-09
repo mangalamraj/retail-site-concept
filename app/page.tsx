@@ -16,18 +16,18 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   return (
-    <div className="m-auto bg-zinc-50 w-full font-sans flex flex-col md:gap-30  dark:bg-black">
+    <div className="m-auto bg-zinc-50 w-full font-sans flex flex-col md:gap-30 gap-20  dark:bg-black ">
       <BackgroundRippleEffect rows={80} cols={40} />
       <HeroSection />
 
       <Features />
       <MarketingSection />
-      <div className="container m-auto w-[60%] ">
+      <div className="container m-auto md:w-[60%] ">
         <Separator className="bg-gradient-to-r dark:from-black dark:via-gray-400 dark:to-black from-white via-gray-300 to-white" />
       </div>
       <StakeHolders />
       <Process />
-      <div className="container m-auto w-[60%] ">
+      <div className="container m-auto md:w-[60%] ">
         <Separator className="bg-gradient-to-r dark:from-black dark:via-gray-400 dark:to-black from-white via-gray-300 to-white" />
       </div>
       <FaqComponent />

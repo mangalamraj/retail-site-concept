@@ -1,6 +1,24 @@
 // tailwind.config.js
 module.exports = {
   theme: {
+    container: {
+      center: true,
+      padding: {
+        DEFAULT: "16px",
+        sm: "20px",
+        md: "40px",
+        lg: "60px",
+        xl: "80px",
+        "2xl": "120px",
+      },
+      screens: {
+        sm: "640px",
+        md: "768px",
+        lg: "1024px",
+        xl: "1280px",
+        "2xl": "1440px", // good for SaaS / dashboards
+      },
+    },
     extend: {
       dropShadow: {
         "3xl": "0 35px 35px rgba(0, 0, 0, 0.25)",

@@ -31,9 +31,11 @@ const Process = () => {
 
   return (
     <div className="max-w-380 m-auto md:mt-10 md:mb-10 z-10">
-      <div className="w-[80%] flex flex-col md:flex-row gap-10 m-auto justify-between">
-        <div className="flex h-[600px] md:w-[55%] flex-col justify-between">
-          <div className="text-4xl ">Order Processing</div>
+      <div className="md:w-[80%] w-[90%] flex flex-col md:flex-row gap-10 m-auto md:justify-between">
+        <div className="flex h-[600px] md:w-[55%] flex-col md:justify-between">
+          <div className="md:text-4xl  md:w-full md:m-auto mb-4 md:mb-0 text-2xl ">
+            Order Processing
+          </div>
 
           <div className="flex flex-col gap-3">
             {steps.map((step, index) => (
