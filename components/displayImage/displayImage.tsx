@@ -15,7 +15,7 @@ const DisplayImage = () => {
           />
         </div>
       </div>
-      <div className="md:border-2 border rounded-xl bg-gray-300/30 dark:bg-zinc-600/40 md:w-[70%] w-[90%] m-auto">
+      <div className="md:border-2 border rounded-xl bg-gray-300/30 dark:bg-zinc-600/40 md:w-[70%] m-auto">
         <div className="md:m-4 m-1 border-2 rounded-xl bg-gray-400/20 dark:bg-zinc-800/20 md:p-2 p-1">
           <img
             src="/dashboard1.png"
@@ -25,7 +25,7 @@ const DisplayImage = () => {
         </div>
       </div>
 
-      <div className="text-xs text-gray-400 w-[90%] m-auto pt-2 md:pt-6 md:text-center font-semibold">
+      <div className="text-xs text-gray-400  m-auto pt-2 md:pt-6 md:text-center font-semibold">
         <div className="inline">
           RetailReady is the future of supply chain compliance.{" "}
           <span className="dark:text-white text-zinc-600 hover:underline cursor-pointer">

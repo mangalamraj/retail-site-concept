@@ -120,16 +120,16 @@ export function FaqComponent() {
               className="object-cover rounded-md"
             />
           </div>
-          <div className="mt-4 flex flex-col items-start w-[100%] md:w-[80%] gap-1">
-            <div className="flex flex-col gap-1">
+          <div className="mt-2 flex flex-col items-start w-[100%] md:w-[80%] gap-1">
+            <div className="flex flex-col gap-2">
               <div>What is Retail Ready?</div>
               <div className="text-xs text-gray-500">
                 RetailReadyAI is an AI-powered operations layer that understands
                 your retail data—orders, inventory, rules, and workflows—and
                 turns it into real-time, actionable decisions.
-              </div>
-              <div className="text-sm flex gap-1  ">
-                Read more <MoveRight size={16} className="mt-0.5" />
+                <div className="text-sm flex gap-1 text-black ">
+                  Read more <MoveRight size={16} className="mt-0.5" />
+                </div>
               </div>
             </div>
           </div>
@@ -143,16 +143,16 @@ export function FaqComponent() {
               className="object-cover rounded-md"
             />
           </div>
-          <div className="mt-4 flex flex-col items-start w-[100%] md:w-[80%] gap-1">
-            <div className="flex flex-col gap-1">
+          <div className="mt-2 flex flex-col items-start w-[100%] md:w-[80%] gap-1">
+            <div className="flex flex-col gap-2">
               <div>From Manual Ops to AI-Driven Ops</div>
               <div className="text-xs text-gray-500">
                 Eliminate spreadsheets, delayed reviews, and manual checks.
                 RetailReadyAI monitors operations in real time and escalates
                 only what truly needs human attention.
-              </div>
-              <div className="text-sm flex gap-1  ">
-                Read more <MoveRight size={16} className="mt-1" />
+                <div className="text-sm flex gap-1  text-black">
+                  Read more <MoveRight size={16} className="mt-1" />
+                </div>
               </div>
             </div>
           </div>

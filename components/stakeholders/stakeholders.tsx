@@ -28,20 +28,20 @@ const StakeHolders = () => {
             <div
               className={`flex gap-2 text-xs font-bold w-0 h-0 ${hover ? "md:w-full md:h-fit text-white mt-4" : "md:w-0 md:h-0"} overflow-hidden duration:300`}
             >
-              <Badge className=" text-gray-400 dark:text-black">
+              <Badge className=" text-gray-400 dark:text-black border border-zinc-600 dark:border-0">
                 Smart Packout Flow
               </Badge>
-              <Badge>
+              <Badge className="border border-zinc-600 dark:border-0">
                 <div className=" text-gray-400 dark:text-black">
                   Task Management
                 </div>
               </Badge>
-              <Badge>
+              <Badge className="border border-zinc-600 dark:border-0">
                 <div className=" text-gray-400 dark:text-black">
                   EDI Services
                 </div>
               </Badge>
-              <Badge>
+              <Badge className="border border-zinc-600 dark:border-0">
                 <div className=" text-gray-400 dark:text-black">
                   Automated ASN
                 </div>
@@ -77,20 +77,20 @@ const StakeHolders = () => {
               Maximize Your Performance
             </div>
             <div className="flex gap-2 text-xs font-bold  w-0  h-0 md:group-hover:w-full md:group-hover:h-fit group-hover:text-white md:group-hover:mt-4 overflow-hidden duration:300">
-              <Badge className=" text-gray-400 dark:text-black">
+              <Badge className=" text-gray-400 dark:text-black border border-zinc-600 dark:border-0">
                 AI Chargeback Processing
               </Badge>
-              <Badge>
+              <Badge className="border border-zinc-600 dark:border-0">
                 <div className=" text-gray-400 dark:text-black">
                   Analytics Dashboard
                 </div>
               </Badge>
-              <Badge>
+              <Badge className="border border-zinc-600 dark:border-0">
                 <div className=" text-gray-400 dark:text-black">
                   Vendor Scorecard
                 </div>
               </Badge>
-              <Badge>
+              <Badge className="border border-zinc-600 dark:border-0">
                 <div className=" text-gray-400 dark:text-black">
                   Dispute Analytics
                 </div>
@@ -120,21 +120,21 @@ const StakeHolders = () => {
         >
           <div className="flex flex-col justify-end align-text-bottom h-full w-full">
             <div className="text-2xl font-medium">For Retailers.</div>
-            <div className="text-base  w-0 h-0 md:group-hover:w-full md:group-hover:h-fit group-hover:text-white overflow-hidden duration:300">
+            <div className="text-base md:w-0 md:h-0 w-full md:group-hover:w-full md:group-hover:h-fit group-hover:text-white overflow-hidden duration:300">
               Optimize Your Receiving Process
             </div>
             <div className="flex gap-2 text-xs font-bold  w-0   h-0 md:group-hover:w-full md:group-hover:h-fit md:group-hover:text-white md:group-hover:mt-4 overflow-hidden duration:300">
-              <Badge>
+              <Badge className="border border-zinc-600 dark:border-0">
                 <div className=" text-gray-400 dark:text-black">
                   Requirements Control
                 </div>
               </Badge>
-              <Badge>
+              <Badge className="border border-zinc-600 dark:border-0">
                 <div className=" text-gray-400 dark:text-black">
                   Inbound Automation
                 </div>
               </Badge>
-              <Badge>
+              <Badge className="border border-zinc-600 dark:border-0">
                 <div className=" text-gray-400 dark:text-black">
                   Vendor Management
                 </div>
@@ -158,7 +158,7 @@ const StakeHolders = () => {
         Many warehouses have already transformed their operations with
         RetailReady.{" "}
         <span className="dark:text-white text-zinc-600 hover:underline cursor-pointer ">
-          Know More.
+          Know More
         </span>
       </div>
     </div>

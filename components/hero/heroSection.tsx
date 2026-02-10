@@ -12,7 +12,7 @@ import { cn } from "@/lib/utils";
 
 const HeroSection = () => {
   return (
-    <div className=" max-w-380  m-auto flex flex-col gap-5 md:gap-10 justify-center md:items-center">
+    <div className=" max-w-380  w-[90%] m-auto flex flex-col gap-5 md:gap-10 justify-center md:items-center">
       {/*<div className="absolute -top-100 bottom-0 flex gap-20">
         <Image
           src="/gradient2.svg"
@@ -27,7 +27,7 @@ const HeroSection = () => {
           height={900}
         ></Image>
       </div>*/}
-      <div className="relative m-auto  w-[90%] flex flex-col md:gap-4 gap-2 items-start md:items-center md:text-center mt-36 md:mt-60 ">
+      <div className="relative m-auto  flex flex-col md:gap-4 gap-2 items-start md:items-center md:text-center mt-36 md:mt-60 ">
         <div
           className={cn(
             "group rounded-full border border-black/5 bg-neutral-100 text-base text-white transition-all ease-in hover:cursor-pointer hover:bg-neutral-200 dark:border-white/5 dark:bg-neutral-900 dark:hover:bg-neutral-800",
@@ -72,10 +72,7 @@ const HeroSection = () => {
           </TextAnimate>
         </div>
       </div>
-      <BlurFade
-        delay={1.25}
-        className="z-4 w-[90%] m-auto md:flex md:justify-center"
-      >
+      <BlurFade delay={1.25} className="z-4  m-auto md:flex md:justify-center">
         <div className="group relative w-fit md:w-inherit overflow-hidden rounded-full shadow-2xl dark:shadow-gray-500/100 cursor-pointer ">
           <div className="h-20 w-10  -top-4 bg-linear-to-r from-white/10 via-white/50 to-white/10 absolute -left-16 group-hover:left-[150%] duration-700 blur-sm  -rotate-45 " />
           <div
@@ -102,7 +99,7 @@ const HeroSection = () => {
       </BlurFade>
       <DisplayImage />
 
-      {/*<TrustedBy />*/}
+      <TrustedBy />
     </div>
   );
 };

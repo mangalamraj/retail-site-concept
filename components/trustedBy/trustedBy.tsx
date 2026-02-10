@@ -11,7 +11,7 @@ const logos = [
 
 const TrustedBy = () => {
   return (
-    <section className="container m-auto text-center overflow-hidden mt-10 mb-10 ">
+    <div className="container m-auto text-center overflow-hidden mt-5 md:mb-10 ">
       <h2 className="text-sm font-medium tracking-widest text-muted-foreground uppercase">
         Trusted by
       </h2>
@@ -20,14 +20,13 @@ const TrustedBy = () => {
           {logos.map((logo) => (
             <div
               key={logo.name}
-              className="relative mx-4 mt-4 w-20 flex items-center"
+              className="relative mx-4 mt-4 md:w-20 flex items-center  w-16.25 h-10"
             >
               <Image
                 src={logo.src}
                 alt={logo.name}
-                width={80}
-                height={60}
-                className="h-12 w-auto object-contain grayscale color-white dark:fill-white bg-transparent"
+                fill
+                className="h-12  w-full object-contain grayscale color-white dark:fill-white bg-transparent"
               />
             </div>
           ))}
@@ -35,7 +34,7 @@ const TrustedBy = () => {
         <div className="dark:from-background from-zinc-50 pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r"></div>
         <div className="dark:from-background from-zinc-50 pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l"></div>
       </div>
-    </section>
+    </div>
   );
 };
 
