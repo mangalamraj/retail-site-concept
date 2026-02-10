@@ -59,7 +59,16 @@ const HeroSection = () => {
           duration={0.6}
           once
           by="word"
-          segmentClassName="text-6xl md:text-7x  text-left md:text-center lg:text-9xl font-bold tracking-tight bg-linear-to-b text-black from-60% dark:from-gray-200 dark:to-gray-800 bg-clip-text dark:text-transparent"
+          segmentClassName="
+            text-6xl md:text-7xl lg:text-9xl
+            text-left md:text-center
+            font-bold tracking-tight
+            bg-gradient-to-b
+            from-45%
+            from-gray-800 to-zinc-600/90
+            dark:from-gray-200 dark:to-gray-800
+            bg-clip-text text-transparent
+          "
         >
           Retail Ready
         </TextAnimate>
