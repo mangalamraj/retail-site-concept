@@ -20,7 +20,7 @@ const TrustedBy = () => {
           {logos.map((logo) => (
             <div
               key={logo.name}
-              className="relative mx-4 mt-4 md:w-20 flex items-center  w-16.25 h-10"
+              className="relative mx-4 mt-2 md:mt-4 md:w-20 flex items-center  w-14.5 h-10"
             >
               <Image
                 src={logo.src}
