@@ -22,11 +22,8 @@ const Footer = () => {
                   <div className="logo-des">
                     <h3>Office</h3>
 
-                    <p>
-                      At vero eos et accusamus et iusto odio dignissimos ducimus
-                      - 1234
-                    </p>
-                    <a href="#">abc.abc@abc.com</a>
+                    <p>San Fransisco</p>
+                    {/*<a href="#">abc.abc@abc.com</a>*/}
                     <p>+91 123459680</p>
                   </div>
                   <div className="s_tags flex">
@@ -96,7 +93,7 @@ const Footer = () => {
 
             <div className="col-12">
               <span className="copyright">
-                ©Copyright 2023-2026 Rove Group. All Rights Reserved
+                ©Copyright 2023-2026 Mangalam Raj. All Rights Reserved
               </span>
             </div>
           </div>
