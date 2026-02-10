@@ -37,8 +37,8 @@ export function NavbarComponent() {
         <NavbarLogo />
         <NavItems items={navItems} />
 
-        <div className="flex items-center gap-4 z-50">
-          <NavbarButton variant="" className="rounded-2xl bg-black text-white">
+        <div className="flex flex-col md:flex-row items-center gap-4 z-50">
+          <NavbarButton className="rounded-2xl bg-white md:bg-black text-white">
             Login
           </NavbarButton>
           <ModeToggle />

@@ -16,7 +16,7 @@ import { Separator } from "@/components/ui/separator";
 
 export default function Home() {
   return (
-    <div className="m-auto bg-zinc-50 w-full font-sans flex flex-col md:gap-30 gap-20  dark:bg-black ">
+    <div className="m-auto bg-zinc-50 w-full font-sans flex flex-col md:gap-30 gap-20  dark:bg-black overflow-hidden">
       <BackgroundRippleEffect rows={80} cols={40} />
       <HeroSection />
 

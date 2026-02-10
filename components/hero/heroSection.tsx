@@ -10,7 +10,7 @@ import { BlurFade } from "../ui/blur-fade";
 
 const HeroSection = () => {
   return (
-    <div className=" max-w-380 m-auto flex flex-col gap-10 justify-center items-center">
+    <div className=" max-w-380  m-auto flex flex-col gap-5 md:gap-10 justify-center md:items-center">
       {/*<div className="absolute -top-100 bottom-0 flex gap-20">
         <Image
           src="/gradient2.svg"
@@ -25,8 +25,8 @@ const HeroSection = () => {
           height={900}
         ></Image>
       </div>*/}
-      <div className="relative   flex flex-col gap-4 items-center text-center  mt-60 ">
-        <Badge variant={"outline"} className="p-2 px-4">
+      <div className="relative m-auto  w-[90%] flex flex-col md:gap-4 gap-2 items-start md:items-center md:text-center mt-40 md:mt-60 ">
+        <Badge variant={"outline"} className="p-2 px-4  md:text-center">
           Retail Simplified
         </Badge>
 
@@ -35,11 +35,11 @@ const HeroSection = () => {
           duration={0.6}
           once
           by="word"
-          segmentClassName="text-5xl md:text-7xl lg:text-9xl font-bold tracking-tight bg-linear-to-b text-black from-60% dark:from-gray-200 dark:to-gray-800 bg-clip-text dark:text-transparent"
+          segmentClassName="text-4xl md:text-7x  text-left md:text-center lg:text-9xl font-bold tracking-tight bg-linear-to-b text-black from-60% dark:from-gray-200 dark:to-gray-800 bg-clip-text dark:text-transparent"
         >
           Retail Ready
         </TextAnimate>
-        <div className="text-2xl text-gray-400">
+        <div className="text-lg md:text-center text-left inline md:text-2xl text-gray-400">
           <TextAnimate animation="blurInUp" once delay={1}>
             Meet the system enabling brands and 3PLs to achieve zero chargebacks
           </TextAnimate>
@@ -48,11 +48,14 @@ const HeroSection = () => {
           </TextAnimate>
         </div>
       </div>
-      <BlurFade delay={1.25} className="z-4">
-        <div className="group relative overflow-hidden rounded-full shadow-2xl dark:shadow-gray-500/100 cursor-pointer ">
-          <div className="h-20 w-10 -top-4 bg-linear-to-r from-white/10 via-white/50 to-white/10 absolute -left-16 group-hover:left-[150%] duration-700 blur-sm  -rotate-45 " />
+      <BlurFade
+        delay={1.25}
+        className="z-4 w-[90%] m-auto md:flex md:justify-center"
+      >
+        <div className="group relative w-fit md:w-inherit overflow-hidden rounded-full shadow-2xl dark:shadow-gray-500/100 cursor-pointer ">
+          <div className="h-20 w-10  -top-4 bg-linear-to-r from-white/10 via-white/50 to-white/10 absolute -left-16 group-hover:left-[150%] duration-700 blur-sm  -rotate-45 " />
           <div
-            className="rounded-full p-[1.5px]"
+            className="rounded-full p-[1.5px] w-fit md:w-inherit"
             style={{
               background:
                 "linear-gradient(90deg, rgb(30,30,30) 0%, rgb(51,51,51) 18%, rgb(156,156,156) 66%, rgb(30,30,30) 100%)",
@@ -75,7 +78,7 @@ const HeroSection = () => {
       </BlurFade>
       <DisplayImage />
 
-      <TrustedBy />
+      {/*<TrustedBy />*/}
     </div>
   );
 };
