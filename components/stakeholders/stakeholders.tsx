@@ -11,7 +11,7 @@ const StakeHolders = () => {
       <div className="md:text-4xl md:w-full m-auto text-2xl font-medium">
         Value for every stakeholder
       </div>
-      <div className="text-base md:text-lg  md:w-full m-auto  font-medium text-gray-400 mt-2">
+      <div className="text-base md:text-lg  md:w-full m-auto  text-gray-400  font-normal mt-1">
         We value all of our stakeholders
       </div>
       <div className="flex flex-col md:flex-row gap-4 md:w-[80%] w-full h-full m-auto mt-10 text-white ">
@@ -154,9 +154,12 @@ const StakeHolders = () => {
           </div>
         </div>
       </div>
-      <div className="mt-6 text-xs text-gray-400">
+      <div className="mt-6 text-xs text-gray-400 font-semibold ">
         Many warehouses have already transformed their operations with
-        RetailReady.
+        RetailReady.{" "}
+        <span className="dark:text-white text-zinc-600 hover:underline cursor-pointer ">
+          Know More.
+        </span>
       </div>
     </div>
   );

@@ -10,70 +10,100 @@ import { MoveRight } from "lucide-react";
 
 export function FaqComponent() {
   return (
-    <div className="flex md:gap-20 gap-4 container flex-col md:flex-row w-[90%]  xl:w-[70%] m-auto">
-      <div className=" flex flex-col md:w-[680px] md:text-center  md:justify-between justify-center gap-2 md:gap-10">
+    <div className="flex md:gap-20 gap-4 container flex-col md:flex-row md:w-[80%] w-[90%]  xl:w-[70%] m-auto">
+      <div className=" flex flex-col md:w-[680px] md:text-center  md:justify-between justify-center gap-10 md:gap-2">
         <div className="md:text-left flex flex-col">
           <div className="text-2xl font-semibold md:text-4xl md:mb-2">FAQs</div>
-          <div className="md:text-base text-[#a1a1aa] md:mb-8 font-semibold">
-            Get the Answers You Need: Your Guide to Our Chatbot Solutions{" "}
+          <div className="md:text-base md:mb-8 text-gray-400  font-normal">
+            Everything you need to know about RetailReadyAI and{" "}
+            <p>how it simplifies compliance.</p>
           </div>
         </div>
         <div className="flex m-auto text-left w-full">
           <Accordion
             type="single"
             collapsible
-            className=" bg-gray-100 w-full dark:bg-black px-4 rounded-xl dark:border-2 dark:border-zinc-800"
+            className="bg-gray-100 w-full dark:bg-black px-4 rounded-xl dark:border-2 dark:border-zinc-800"
           >
             <AccordionItem value="item-1">
               <AccordionTrigger className="text-left">
-                What makes your chatbot solutions different from others?
+                What is RetailReadyAI and who is it for?
               </AccordionTrigger>
               <AccordionContent>
-                Our chatbot solutions are powered by advanced AI, offering
-                personalized interactions, seamless integrations, and continuous
-                learning capabilities to improve customer experience over time.
+                RetailReadyAI is an AI-powered compliance and automation
+                platform designed for brands, manufacturers, and sellers to
+                ensure their products meet retailer and marketplace requirements
+                before launch. It helps teams avoid rejections, delays, and
+                compliance errors across the supply chain.
               </AccordionContent>
             </AccordionItem>
+
             <AccordionItem value="item-2">
               <AccordionTrigger className="text-left">
-                How easy is it to integrate your chatbot with our existing
-                systems?
+                How does RetailReadyAI help with retailer compliance?
               </AccordionTrigger>
               <AccordionContent>
-                Integration is simple and straightforward. Our chatbots are
-                designed to work seamlessly with a wide range of platforms,
-                including websites, mobile apps, and popular messaging services.
+                RetailReadyAI automatically validates product data against
+                retailer guidelines, GS1 standards, and marketplace rules. It
+                flags issues early, suggests fixes, and ensures your listings
+                are retail-ready before submission.
               </AccordionContent>
             </AccordionItem>
+
             <AccordionItem value="item-3">
               <AccordionTrigger className="text-left">
-                Can the chatbot be customized to match our brands voice and
-                style?
+                Does RetailReadyAI support GTIN, barcode, and GS1 standards?
               </AccordionTrigger>
               <AccordionContent>
-                Absolutely! Our chatbots can be fully customized to reflect your
-                brands tone, style, and visual identity, ensuring a consistent
-                user experience across all touchpoints.
+                Yes. RetailReadyAI supports GTIN validation, barcode checks, and
+                GS1 data requirements to ensure your product identifiers are
+                accurate, compliant, and accepted across global retailers.
               </AccordionContent>
             </AccordionItem>
+
             <AccordionItem value="item-4">
               <AccordionTrigger className="text-left">
-                Is the chatbot capable of handling multiple languages?
+                Can RetailReadyAI integrate with our existing systems?
               </AccordionTrigger>
               <AccordionContent>
-                Yes, our chatbot solutions support multiple languages, making it
-                easy to engage with a global audience and provide localized
-                experiences.
+                Absolutely. RetailReadyAI is built to integrate seamlessly with
+                your existing PIM, ERP, e-commerce platforms, and internal
+                workflows, making adoption fast and disruption-free.
               </AccordionContent>
             </AccordionItem>
+
             <AccordionItem value="item-5">
               <AccordionTrigger className="text-left">
-                What kind of support do you offer post-deployment?
+                How does AI improve accuracy compared to manual checks?
               </AccordionTrigger>
               <AccordionContent>
-                We provide ongoing support, including updates, performance
-                monitoring, and troubleshooting, to ensure your chatbot
-                continues to perform at its best.
+                Our AI continuously learns from retailer feedback, past
+                rejections, and compliance updates. This allows RetailReadyAI to
+                catch issues humans often miss, reduce manual effort, and
+                improve accuracy over time.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-6">
+              <AccordionTrigger className="text-left">
+                Is RetailReadyAI suitable for global and multi-marketplace
+                brands?
+              </AccordionTrigger>
+              <AccordionContent>
+                Yes. RetailReadyAI supports multi-region compliance and helps
+                brands manage different retailer requirements, languages, and
+                standards across global markets from a single platform.
+              </AccordionContent>
+            </AccordionItem>
+
+            <AccordionItem value="item-7">
+              <AccordionTrigger className="text-left">
+                What kind of support do you offer after onboarding?
+              </AccordionTrigger>
+              <AccordionContent>
+                We provide continuous support, system updates, monitoring, and
+                guidance to ensure RetailReadyAI evolves with changing retailer
+                rules and your growing business needs.
               </AccordionContent>
             </AccordionItem>
           </Accordion>

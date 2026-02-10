@@ -25,8 +25,13 @@ const DisplayImage = () => {
         </div>
       </div>
 
-      <div className="text-xs text-gray-400 pt-2 md:pt-6 text-center font-semibold">
-        <p>RetailReady is the future of supply chain compliance</p>
+      <div className="text-xs text-gray-400 w-[90%] m-auto pt-2 md:pt-6 md:text-center font-semibold">
+        <div className="inline">
+          RetailReady is the future of supply chain compliance.{" "}
+          <span className="dark:text-white text-zinc-600 hover:underline cursor-pointer">
+            Read More.
+          </span>
+        </div>
       </div>
     </div>
   );

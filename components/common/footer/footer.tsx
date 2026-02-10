@@ -69,21 +69,21 @@ const Footer = () => {
 
                 <div className="link-row">
                   <div className="footer-header_sub">
-                    <h3>Our Services</h3>
+                    <h3>Case Studies</h3>
                   </div>
 
                   <div className="link-des">
                     <a href="#" className="footer-links">
-                      Lorem Ipsum
+                      California Naturals{" "}
                     </a>
                     <a href="#" className="footer-links">
-                      Lorem Ipsum
+                      Ware2Go{" "}
                     </a>
                     <a href="#" className="footer-links">
-                      Lorem Ipsum
+                      BruMate
                     </a>
                     <a href="#" className="footer-links">
-                      Lorem Ipsum
+                      GoBolt
                     </a>
                   </div>
                 </div>

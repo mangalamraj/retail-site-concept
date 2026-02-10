@@ -31,12 +31,20 @@ const Process = () => {
 
   return (
     <div className="max-w-380 m-auto md:mt-10 md:mb-10 z-10">
-      <div className="md:w-[80%] w-[90%] flex flex-col md:flex-row gap-10 m-auto md:justify-between">
-        <div className="flex h-[600px] md:w-[55%] flex-col md:justify-between">
-          <div className="md:text-4xl  md:w-full md:m-auto mb-4 md:mb-0 text-2xl ">
-            Order Processing
+      <div className="md:w-[80%] w-[90%] flex flex-col md:flex-row gap-20 md:gap-10 m-auto md:justify-between">
+        <div className="flex h-[600px] md:w-[55%]  flex-col md:justify-between">
+          <div className="flex flex-col md:mb-0 mb-10">
+            <div className="md:text-4xl text-2xl font-medium md:w-full md:m-auto mb-1 md:mb-0 text-2xl ">
+              Order Processing
+            </div>
+            <div className="md:text-lg text-gray-400  font-normal">
+              <span>Explore our intelligent order processing flow.</span>
+              <span>
+                Built to reduce errors, accelerate decisions, and scale with
+                your business.{" "}
+              </span>{" "}
+            </div>
           </div>
-
           <div className="flex flex-col gap-3">
             {steps.map((step, index) => (
               <div

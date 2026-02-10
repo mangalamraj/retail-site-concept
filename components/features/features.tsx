@@ -2,12 +2,14 @@
 import { ClockCheck, Cog, Smartphone, Zap } from "lucide-react";
 import { useState } from "react";
 import { GlareCard } from "../ui/glare-card";
+import { AnimatedShinyText } from "../ui/animated-shiny-text";
+import { cn } from "@/lib/utils";
 
 const Features = () => {
   const [hover, setHover] = useState(true);
   return (
     <div className="max-w-380   m-auto md:text-center z-10">
-      <div className=" md:text-4xl w-[90%] md:w-full m-auto text-2xl font-medium  mb-2">
+      <div className=" md:text-4xl w-[90%] md:w-full m-auto text-2xl font-medium  mb-1">
         The Challenge of Retail Compliance
       </div>
       <div className="text-base md:text-lg w-[90%] md:w-full m-auto  text-gray-400 font-normal mb-10">

@@ -7,12 +7,12 @@ const MarketingSection = () => {
     <div className="relative md:w-[60%] w-[90%] m-auto flex justify-center ">
       <DottedMap dotRadius={0.1} className="absolute" width={150} />
 
-      <div className="z-2 ">
-        <div className="md:text-4xl md:w-full m-auto text-2xl font-medium text-left md:text-center mb-20 inline md:block">
+      <div className="z-2">
+        <div className="md:text-4xl md:w-full m-auto text-2xl font-medium text-left md:text-center md:mb-20 inline md:block">
           <p>Make your retail operations AI-ready. </p>
           <p>No heavy setup required.</p>
         </div>
-        <div className="mb-10 text-base md:text-lg md:w-[80%] md:w-full m-auto">
+        <div className="mb-10 text-base md:text-lg md:w-[80%] m-auto md:mt-0 mt-10">
           <div className="md:w-[70%] m-auto mb-5">
             Traditional retail systems move slow. Decisions come later than they
             should.
