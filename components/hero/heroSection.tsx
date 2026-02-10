@@ -72,7 +72,10 @@ const HeroSection = () => {
           </TextAnimate>
         </div>
       </div>
-      <BlurFade delay={1.25} className="z-4  m-auto md:flex md:justify-center">
+      <BlurFade
+        delay={1.25}
+        className="z-4  md:m-auto md:flex md:justify-center"
+      >
         <div className="group relative w-fit md:w-inherit overflow-hidden rounded-full shadow-2xl dark:shadow-gray-500/100 cursor-pointer ">
           <div className="h-20 w-10  -top-4 bg-linear-to-r from-white/10 via-white/50 to-white/10 absolute -left-16 group-hover:left-[150%] duration-700 blur-sm  -rotate-45 " />
           <div
