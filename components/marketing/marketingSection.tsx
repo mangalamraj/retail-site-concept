@@ -4,7 +4,7 @@ import { DottedMap } from "../ui/dotted-map";
 
 const MarketingSection = () => {
   return (
-    <div className="relative md:w-[60%] w-[90%] m-auto flex justify-center ">
+    <div className="relative xl:w-[60%] w-[90%] m-auto flex justify-center ">
       <DottedMap dotRadius={0.1} className="absolute" width={150} />
 
       <div className="z-2">

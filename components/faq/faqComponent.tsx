@@ -10,8 +10,18 @@ import { MoveRight } from "lucide-react";
 
 export function FaqComponent() {
   return (
-    <div className="flex md:gap-20 gap-4 container flex-col md:flex-row md:w-[80%] w-[90%]  xl:w-[70%] m-auto">
-      <div className=" flex flex-col md:w-[680px] md:text-center  md:justify-between justify-center gap-10 md:gap-2">
+    <div className="flex xl:gap-12 gap-4 container flex-col xl:flex-row xl:w-[75%]  w-[90%]   m-auto">
+      <div
+        className="
+        flex flex-col
+        w-full
+        xl:max-w-[680px]
+        md:text-center
+        md:justify-between
+        justify-center
+        gap-10 md:gap-2
+      "
+      >
         <div className="md:text-left flex flex-col">
           <div className="text-2xl font-semibold md:text-4xl md:mb-2">FAQs</div>
           <div className="md:text-base md:mb-8 text-gray-400  font-normal">
@@ -110,9 +120,9 @@ export function FaqComponent() {
         </div>
       </div>
 
-      <div className="border-t-2 md:w-1/2 md:border-l-2 md:border-t-0 flex flex-col gap-4 dark:border-gray-600/40 border-gray-300/60 flex-1 ">
+      <div className="border-t-2 xl:w-1/2 xl:border-l-2 xl:border-t-0 flex flex-col gap-4 dark:border-gray-600/40 border-gray-300/60 flex-1 ">
         <div className="w-full flex flex-col items-center md:items-end mt-4">
-          <div className="w-[100%] md:w-[80%] h-[120px] relative border-3 dark:border-gray-600/20  border-gray-300/60 rounded-md">
+          <div className="w-[100%] xl:w-[80%] h-[120px] relative border-3 dark:border-gray-600/20  border-gray-300/60 rounded-md">
             <Image
               src="/r1.svg"
               alt="Retail Ready"
@@ -120,7 +130,7 @@ export function FaqComponent() {
               className="object-cover rounded-md"
             />
           </div>
-          <div className="mt-2 flex flex-col items-start w-[100%] md:w-[80%] gap-1">
+          <div className="mt-2 flex flex-col items-start w-[100%] xl:w-[80%] gap-1">
             <div className="flex flex-col gap-2">
               <div>What is Retail Ready?</div>
               <div className="text-xs text-gray-500">
@@ -134,8 +144,8 @@ export function FaqComponent() {
             </div>
           </div>
         </div>
-        <div className="w-full flex flex-col items-center md:items-end ">
-          <div className="md:w-[80%] w-[100%] h-[120px] relative border-3 dark:border-gray-600/20  border-gray-300/60 rounded-md">
+        <div className="w-full flex flex-col items-center xl:items-end ">
+          <div className="xl:w-[80%] w-[100%] h-[120px] relative border-3 dark:border-gray-600/20  border-gray-300/60 rounded-md">
             <Image
               src="/r2.svg"
               alt="Retail Ready"
@@ -143,7 +153,7 @@ export function FaqComponent() {
               className="object-cover rounded-md"
             />
           </div>
-          <div className="mt-2 flex flex-col items-start w-[100%] md:w-[80%] gap-1">
+          <div className="mt-2 flex flex-col items-start w-[100%] xl:w-[80%] gap-1">
             <div className="flex flex-col gap-2">
               <div>From Manual Ops to AI-Driven Ops</div>
               <div className="text-xs text-gray-500">

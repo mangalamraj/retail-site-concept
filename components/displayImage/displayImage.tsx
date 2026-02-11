@@ -4,7 +4,7 @@ import { BlurFade } from "../ui/blur-fade";
 const DisplayImage = () => {
   return (
     <div className="relative m-auto z-2 w-full">
-      <div className="absolute md:w-[1200px] md:h-[1000px] w-[450px] h-[380px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-40 opacity-50 ">
+      <div className="absolute xl:w-[1200px] xl:h-[1000px] w-[450px] h-[380px] top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 -z-40 opacity-50 ">
         <div className="relative w-full h-full spinGradient">
           <Image
             src="/gradient.svg"

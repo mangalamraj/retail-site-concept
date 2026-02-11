@@ -14,9 +14,9 @@ const StakeHolders = () => {
       <div className="text-base md:text-lg  md:w-full m-auto  text-gray-400  font-normal mt-1">
         We value all of our stakeholders
       </div>
-      <div className="flex flex-col md:flex-row gap-4 md:w-[80%] w-full h-full m-auto mt-10 text-white ">
+      <div className="flex flex-col xl:flex-row gap-4 md:w-[80%] w-full h-full m-auto mt-10 text-white ">
         <div
-          className={`${hover ? "md:w-2/3" : "md:w-1/4"} relative h-[400px] duration-400 bg-black dark:bg-zinc-950 rounded-xl border cursor-pointer overflow-hidden text-left flex p-5 md:hover:p-8 mt`}
+          className={`${hover ? "xl:w-2/3" : "xl:w-1/4"} relative h-[400px] duration-400 bg-black dark:bg-zinc-950 rounded-xl border cursor-pointer overflow-hidden text-left flex p-5 md:hover:p-8 mt`}
         >
           <div className="flex flex-col justify-end align-text-bottom h-full w-full">
             <div className="text-2xl font-medium">For 3PLs.</div>
@@ -63,7 +63,7 @@ const StakeHolders = () => {
           </div>
         </div>
         <div
-          className="relative group md:w-1/4 md:hover:w-2/3 duration-400 h-[400px] bg-black dark:bg-zinc-950 border rounded-xl cursor-pointer overflow-hidden text-left flex p-5 hover:p-8 mt"
+          className="relative group xl:w-1/4 xl:hover:w-2/3 duration-400 h-[400px] bg-black dark:bg-zinc-950 border rounded-xl cursor-pointer overflow-hidden text-left flex p-5 hover:p-8 mt"
           onMouseOver={() => {
             setHover(false);
           }}
@@ -110,7 +110,7 @@ const StakeHolders = () => {
           </div>
         </div>
         <div
-          className="relative group md:w-1/4 md:hover:w-2/3 duration-400 h-[400px] bg-black dark:bg-zinc-950 border rounded-xl cursor-pointer overflow-hidden text-left flex p-5 hover:p-8 mt"
+          className="relative group xl:w-1/4 xl:hover:w-2/3 duration-400 h-[400px] bg-black dark:bg-zinc-950 border rounded-xl cursor-pointer overflow-hidden text-left flex p-5 hover:p-8 mt"
           onMouseOver={() => {
             setHover(false);
           }}
