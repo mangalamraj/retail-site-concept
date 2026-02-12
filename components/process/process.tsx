@@ -30,8 +30,8 @@ const Process = () => {
   const [activeIndex, setActiveIndex] = useState(0);
 
   return (
-    <div className="m-auto md:mt-10 md:mb-10 z-10">
-      <div className=" xl:w-[73%] md:w-[80%] w-[90%] flex flex-col xl:flex-row gap-20 md:gap-10 m-auto md:justify-between">
+    <div className="xl:w-[72%] md:w-[80%] w-[90%] m-auto md:mt-10 md:mb-10 z-10">
+      <div className="  flex flex-col xl:flex-row gap-20 md:gap-10 m-auto md:justify-between">
         <div className="flex h-[600px] xl:w-[55%]  flex-col md:justify-between">
           <div className="flex flex-col md:mb-0 mb-10">
             <div className="md:text-4xl font-medium md:w-full md:m-auto mb-1 md:mb-0 text-2xl ">
