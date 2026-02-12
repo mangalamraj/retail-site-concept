@@ -8,8 +8,8 @@ import EmailSection from "../email/emailSection";
 export function CTA() {
   return (
     <div className="flex flex-col gap-10 mb-10">
-      <div className="xl:w-[75%] w-[90%] flex m-auto flex-col xl:flex-row md:gap-4  items-center align-middle">
-        <div className="relative  xl:h-[470px] w-[60%] h-[300px] mb-4 w-full md:mb-0 xl:w-2/3 bg-[url(/storage.jpg)] bg-cover bg-center rounded-xl md:rounded-2xl flex flex-col justify-center text-4xl md:text-5xl font-bold text-center md:leading-14">
+      <div className="xl:w-[72%] w-[90%] flex m-auto flex-col xl:flex-row md:gap-4  items-center align-middle">
+        <div className="relative  2xl:h-[470px] md:h-[400px] w-[60%] h-[300px] mb-4 w-full md:mb-0 xl:w-2/3 bg-[url(/storage.jpg)] bg-cover bg-center rounded-xl md:rounded-2xl flex flex-col justify-center text-4xl md:text-5xl font-bold text-center md:leading-14">
           <div className="absolute w-full h-full bg-gray-800 opacity-25 z-1 rounded-2xl"></div>
 
           <div className="z-2 inline text-white">
@@ -26,9 +26,9 @@ export function CTA() {
           </div>
           <p className="z-2 text-white"> staff into an expert</p>
         </div>
-        <div className="container m-auto h-[30rem] xl:w-1/3 rounded-2xl bg-zinc-950 border relative flex flex-col items-center justify-center antialiased m">
+        <div className="container m-auto 2xl:h-[470px] md:h-[400px] xl:w-1/3 rounded-2xl bg-zinc-950 border relative flex flex-col items-center justify-center antialiased pb-8 xl:pb-0">
           <div className="max-w-2xl mx-auto p-4 mt-10">
-            <h1 className="relative z-10 text-lg md:text-5xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
+            <h1 className="relative z-10 text-3xl 2xl:text-4xl md:text-4xl  bg-clip-text text-transparent bg-gradient-to-b from-neutral-200 to-neutral-600  text-center font-sans font-bold">
               Join the future{" "}
             </h1>
             <p></p>
