@@ -8,7 +8,7 @@ import EmailSection from "../email/emailSection";
 export function CTA() {
   return (
     <div className="flex flex-col gap-10 mb-10">
-      <div className="xl:w-[80%] w-[90%] flex m-auto flex-col xl:flex-row md:gap-4  items-center align-middle">
+      <div className="xl:w-[75%] w-[90%] flex m-auto flex-col xl:flex-row md:gap-4  items-center align-middle">
         <div className="relative  xl:h-[470px] w-[60%] h-[300px] mb-4 w-full md:mb-0 xl:w-2/3 bg-[url(/storage.jpg)] bg-cover bg-center rounded-xl md:rounded-2xl flex flex-col justify-center text-4xl md:text-5xl font-bold text-center md:leading-14">
           <div className="absolute w-full h-full bg-gray-800 opacity-25 z-1 rounded-2xl"></div>
 
