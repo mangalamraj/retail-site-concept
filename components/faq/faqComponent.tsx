@@ -10,12 +10,13 @@ import { MoveRight } from "lucide-react";
 
 export function FaqComponent() {
   return (
-    <div className="flex xl:gap-12 gap-4 container flex-col xl:flex-row xl:w-[75%]  w-[90%]   m-auto">
+    <div className="flex xl:gap-12 gap-4 container flex-col xl:flex-row xl:w-[72%] md:w-[80%] w-[90%]   m-auto">
       <div
         className="
         flex flex-col
         w-full
-        xl:max-w-[680px]
+        xl:max-w-[640px]
+        2xl:max-w-[780px]
         md:text-center
         md:justify-between
         justify-center
